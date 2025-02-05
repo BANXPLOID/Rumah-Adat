@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+
+    <nav>
+      <div class="nav-bar">
+        <span class="logo"><a href="#">Coding Project</a></span>
+
+        <div class="menu">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<center><h1>Rumah Adat Tagog Anj*ng</h1></center>
+
+<img src="/images (2).jpeg"><br><br>
+<h3>
+  <br>
+    Rumah adat Tagog Anjing adalah rumah adat Sunda yang berbentuk seperti anjing sedang duduk. Nama Tagog Anj*ng berasal dari bahasa Sunda yang berarti "duduk" dan "anjing".<br><br>
+Ciri-ciri rumah adat Tagog Anjng:
+<br><br>
+Bentuknya persegi panjang dan memanjang ke belakang
+Rumah panggung dengan tiang-tiang yang tidak terlalu tinggi
+Atapnya berbentuk segitiga dan tambahan atap lebar untuk melindungi teras dari sinar matahari
+Bentuk atapnya terdiri dari dua bidang yang berbatasan dengan garis batas suhunan
+Bidang atap yang pertama lebih lebar dibanding dengan bidang atap lainnya
+Rumah adat Tagog Anjing dapat ditemukan di daerah Garut, Jawa Barat.
+Rumah adat merupakan salah satu representasi kebudayaan yang paling tinggi dalam sebuah komunitas suku atau masyarakat.
+  <br>
+</h3>
+
+</body>
+<style>
+img {
+  width: 270px;
+  height: 120px;
+  border: 2px solid black;
+}
+
+/* ===== Google Font Import - poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+/* ===== colours ===== */
+:root{
+    --body-color: #E4E9F7;
+    --nav-color: #4070F4;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+}
+
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nac-color);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.nav-bar li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before{
+    opacity: 1;
+}
+
+.nav-bar .darkLight-searchBox{
+    display: flex;
+    align-items: center;
+}
+
+.darkLight-searchBox .dark-light,
+.darkLight-searchBox .searchBox{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.dark-light i,
+.searchBox i{
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+.dark-light i.sun{
+    opacity: 0;
+    pointer-events: none;
+}
+.searchBox i.search{
+    opacity: 0;
+    pointer-events: none;
+}
+
+</style>
+</html>
